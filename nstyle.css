@@ -1,0 +1,63 @@
+.navbar
+{
+  padding:7% 10%;
+  background-color: #B1E693;
+}
+.ultext
+{
+  font-size: 25px;
+}
+.bran
+{
+  font-size: 32px;
+}
+.bt {
+  background: #d9bd34;
+  background-image: -webkit-linear-gradient(top, #d9bd34, #99b82b);
+  background-image: -moz-linear-gradient(top, #d9bd34, #99b82b);
+  background-image: -ms-linear-gradient(top, #d9bd34, #99b82b);
+  background-image: -o-linear-gradient(top, #d9bd34, #99b82b);
+  background-image: linear-gradient(to bottom, #d9bd34, #99b82b);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 33px;
+  padding: 8px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bt:hover {
+  background: #fcfc3c;
+  background-image: -webkit-linear-gradient(top, #fcfc3c, #86d934);
+  background-image: -moz-linear-gradient(top, #fcfc3c, #86d934);
+  background-image: -ms-linear-gradient(top, #fcfc3c, #86d934);
+  background-image: -o-linear-gradient(top, #fcfc3c, #86d934);
+  background-image: linear-gradient(to bottom, #fcfc3c, #86d934);
+  text-decoration: none;
+}
+.cor-t
+{
+  margin-left: 10px;
+  font-size: 25px;
+}
+.contents
+{
+  position:absolute;
+  left:0px;
+  background-color: #FFEDED;
+  width:280px;
+}
+@media only screen and (max-width: 600px) {
+  .contents {
+    width:100%;
+  }
+}
+.btn
+{
+  width:100%;
+  font-weight: bolder;
+  border-radius: 0;
+}
